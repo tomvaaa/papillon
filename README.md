@@ -1,5 +1,7 @@
 # PAPILLON BREDA PRJ4 PROJECT
 
+Papillon: be unique, be bold, be yourself. 
+
 ### Website layout
 
 - Main landing page

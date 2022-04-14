@@ -1,257 +1,255 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
-    <!-- Own Styles -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Bootstrap Javascript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-
-    <title>Bootstrap Base Template</title>
-  </head>
-  <body>
-
-    <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- End of navigation bar -->
-
-
-    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <div class="row">
-        <div class="col-md-8 col-lg-6 mx-auto">
-          <h1 class="fw-light">Hero section</h1>
-          <p class="lead">A short and snappy tagline that makes your reader want to read things from your website.</p>
-          <p>
-            <a href="#" class="btn btn-lg btn-warning">Call to action</a>
-            <a href="#" class="btn btn-lg btn-danger">Another call to action</a>
-          </p>
-        </div>
-      </div>
-    </header>
-    <!-- End of hero section -->
-
-    <!-- Start of carrousel, adapted from https://getbootstrap.com/docs/5.1/components/carousel/ -->
-    <section class="container-fluid p-0">
-      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="images/slide-1.jpg" class="d-block mx-auto w-100" alt="...">
-            <div class="carousel-caption">
-              <h3 class="d-none d-md-block">The Horizon Building</h3>
-              <p>
-                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Horizon</span></a>
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/slide-2.jpg" class="d-block mx-auto w-100" alt="...">
-            <div class="carousel-caption">
-              <h3 class="d-none d-md-block">The Ocean Building</h3>
-              <p>
-                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Ocean</span></a>
-              </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/slide-3.jpg" class="d-block mx-auto w-100" alt="...">
-            <div class="carousel-caption">
-              <h3 class="d-none d-md-block">The Frontier Building</h3>
-              <p>
-                <a href="#" class="btn btn-outline-light my-md-2">Learn more<span class="d-inline d-md-none"> about Frontier</span></a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <!-- End of carrousel -->
-
-    <!-- A grid with cards
-      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
-      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
+    <!--  
+    Document Title
+    =============================================
     -->
-    <main class="container py-4">
-      <div class="row g-3 justify-content-evenly">
-
-        <!-- Card #1 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #1</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #2 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #2</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #3 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #3</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #4 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #4</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #5 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #5</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Card #6 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #6</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- That was the last card -->
-
+    <title>PAPILLON BREDA - HOME</title>
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="icon" type="image/x-icon" href="assets/images/aapapillon/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/aapapillon/papillon white website.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+  </head>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>
+      <div class="page-loader">
+        <div class="loader">Loading...</div>
       </div>
+		
+      <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">		  
+	    <div class="logo text-center"> <a href="index.html"> <img src="assets/images/aapapillon/papillon white website.png" alt="Papillon" width="100" height="100"> </a> </div>
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+		    </button>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-">
+              <li class="dropdown"><a href="index.html">Home</a>
+              </li>
+              <li class="dropdown"><a href="404.html">About us </a></li>
+				<li class="dropdown"><a href="papillon_shop.html">Shop</a></li>
+              <!--li.dropdown.navbar-cart-->
+              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown')-->
+              <!--        span.icon-basket-->
+              <!--        |-->
+              <!--        span.cart-item-number 2-->
+              <!--    ul.dropdown-menu.cart-list(role='menu')-->
+              <!--        li-->
+              <!--            .navbar-cart-item.clearfix-->
+              <!--                .navbar-cart-img-->
+              <!--                    a(href='#')-->
+              <!--                        img(src='assets/images/shop/product-9.jpg', alt='')-->
+              <!--                .navbar-cart-title-->
+              <!--                    a(href='#') Short striped sweater-->
+              <!--                    |-->
+              <!--                    span.cart-amount 2 &times; $119.00-->
+              <!--                    br-->
+              <!--                    |-->
+              <!--                    strong.cart-amount $238.00-->
+              <!--        li-->
+              <!--            .navbar-cart-item.clearfix-->
+              <!--                .navbar-cart-img-->
+              <!--                    a(href='#')-->
+              <!--                        img(src='assets/images/shop/product-10.jpg', alt='')-->
+              <!--                .navbar-cart-title-->
+              <!--                    a(href='#') Colored jewel rings-->
+              <!--                    |-->
+              <!--                    span.cart-amount 2 &times; $119.00-->
+              <!--                    br-->
+              <!--                    |-->
+              <!--                    strong.cart-amount $238.00-->
+              <!--        li-->
+              <!--            .clearfix-->
+              <!--                .cart-sub-totle-->
+              <!--                    strong Total: $476.00-->
+              <!--        li-->
+              <!--            .clearfix-->
+              <!--                a.btn.btn-block.btn-round.btn-font-w(type='submit') Checkout-->
+              <!--li.dropdown-->
+              <!--    a.dropdown-toggle(href='#', data-toggle='dropdown') Search-->
+              <!--    ul.dropdown-menu(role='menu')-->
+              <!--        li-->
+              <!--            .dropdown-search-->
+              <!--                form(role='form')-->
+              <!--                    input.form-control(type='text', placeholder='Search...')-->
+              <!--                    |-->
+              <!--                    button.search-btn(type='submit')-->
+              <!--                        i.fa.fa-search-->
+                            <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Documentation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="Marketing.html">Marketing</a></li>
+                  <li><a href="Managment.html">Managment</a></li>
+                  <li><a href="Production.html">Production</a></li>
+                  <li><a href="Content.html">Content</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><li class= "col-lg-push-5"><a href="shop_checkout.html">Checkout</a></li></li>
+			  
+            </ul>
+          </div>
+        </div>
+		              
+      </nav>
+      <section class="home-section bg-dark-30" id="home" data-background="assets/images/aapapillon/backgroundpic.png">
+        <div class="video-player" data-property="{videoURL:'https://youtu.be/-1BBg1Zz7h8', containment:'.home-section', mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:0}"></div>
+        <div class="video-controls-box">
+          <div class="container">
+            <div class="video-controls"><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
+          </div>
+        </div>
+        <div class="titan-caption">
+          <div class="caption-content">
+          </div>
+        </div>
+      </section>
+      <div class="main">
+		  
+		  <section class="module pt-0 pb-0" id="about">
+			  <div class="alert alert-info bg-dark font-alt" role="alert" align="center" >
+                  <button class="close" type="button" data-dismiss="alert" aria-hidden="true">&times;</button> Free shipping on all orders above <strong><i class="fa fa-euro"></i>200</strong> <i class="fa fa-plane"></i></div>
+          <div class="row position-relative m-">
+			  			  		    
+            <div class="col-xs-12 col-md-6 side-image" data-background="assets/images/aapapillon/instaone.png"></div>
+            <div class="col-xs-12 col-md-6 col-md-offset-6 side-image-text">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="module-title font-alt align-left">Our vision.</h2>
+                  <div class="module-subtitle font-serif align-left">No two garmets are the same. 100% Sustainabe only&nbsp;the best quality.&nbsp;</div>
+                  <p>In a world where everybody tries to resemble someone they are not. We believe that having you be yourself is the most important part. Because only then will you discover your true self and inspire you to live your best life.</p>
+                  <p>Original. Bold. Instinct.&nbsp; &nbsp;</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="module pt-0 pb-0" id="about2">
+          <div class="row position-relative m-0">
+            <div class="col-xs-12 col-md-6 col-md-offset-6 side-image" data-background="assets/images/aapapillon/instatwo.png"></div>
+            <div class="col-xs-12 col-md-6  side-image-text">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h2 class="module-title font-alt align-left">Unique.&nbsp;</h2>
+                  <div class="module-subtitle font-serif align-left">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+                  <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary. The languages only differ in their grammar, their pronunciation and their most common words.</p>
+                  <p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Subscribe now</h3>
+                  <p>We will not spam your email.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="callout-btn-box">
+                  <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
+                    <div class="input-group">
+                      <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
+                        <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
+                    </div>
+                  </form>
+                  <div class="text-center" id="subscription-response"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="divider-w">
+        <section class="module" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Get in touch</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <form id="contactForm" role="form" method="post" action="php/contact.php">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="email" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                  </div>
+                </form>
+                <div class="ajax-response font-alt" id="contactFormResponse"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="footer bg-dark">
+          <div class="container" align="center">
+				<p class="copyright font-alt">&copy; 2022&nbsp;<a href="index.html">PAPILLON</a>, All Rights Reserved</p><a href="https://www.instagram.com/papillonbreda/" target="_blank"><i class="fa fa-instagram"></i></a>	
+			  </div>
+        </footer>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
     </main>
-    <!-- End of the grid with cards -->
-
-    <!-- A footer with socials -->
-    <footer class="shadow-lg mt-5 py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
-        </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
-          <li>
-            <a href="https://www.facebook.com/bredauniversityas" target="_blank">
-              <img class="m-2" src="images/facebook.svg" alt="Follow us on" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/school/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/linkedin.svg" alt="Follow us on LinkedIn" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/bredauas" target="_blank">
-              <img class="m-2" src="images/twitter.svg" alt="Follow us on Twitter" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/BredaUniversityofAppliedSciences" target="_blank">
-              <img class="m-2" src="images/youtube.svg" alt="Follow us on YouTube" width="26">
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/bredauniversityas/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <!-- End of the grid -->
-
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

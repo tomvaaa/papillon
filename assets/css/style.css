@@ -100,7 +100,7 @@ a,
 }
 
 .examples.bg-dark {
-  background: #333;
+  background: #002a40;
   border: 0;
 }
 
@@ -207,11 +207,11 @@ a,
 }
 
 .divider-d {
-  border-top: 1px solid #202020;
+  border-top: 1px solid #002a40;
   margin: 0;
 }
 .divider-t {
-  border-top: 2px solid #000000;
+  border-top: 2px solid #002a40;
   margin: 0;
 }
 
@@ -252,7 +252,7 @@ a,
 }
 
 .bg-dark {
-  background: #111;
+  background: #002a40;
 }
 
 .bg-dark-30:before {
@@ -581,7 +581,7 @@ a,
   text-align: center;
   line-height: 28px;
   font-size: 14px;
-  color: #000;
+  color: #002a40;
   opacity: 0.6;
   border-radius: 2px;
 }
@@ -589,7 +589,7 @@ a,
 .scroll-up a:hover,
 .scroll-up a:active {
   opacity: 1;
-  color: #000;
+  color: #002a40;
 }
 
 /* Video */
@@ -678,51 +678,51 @@ a,
 
 .btn.btn-w {
   background: rgba(255, 255, 255, 0.8);
-  color: #111;
+  color: #002a40;
 }
 
 .btn.btn-w:hover,
 .btn.btn-w:focus {
   background: white;
-  color: #111;
+  color: #002a40;
 }
 
 .btn.btn-g {
-  background: #e5e5e5;
-  color: #111;
+  background: #004062;
+  color: #FFFFFF;
 }
 
 .btn.btn-g:hover,
 .btn.btn-g:focus {
-  background: #d8d8d8;
-  color: #111;
+  background: #004062;
+  color: #005482;
 }
 
 .btn.btn-border-w {
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.75);
-  color: #fff;
+  color: #002a40;
 }
 
 .btn.btn-border-w:hover,
 .btn.btn-border-w:focus {
   background: #fff;
   border-color: transparent;
-  color: #111;
+  color: #002a40;
 }
 
 .btn.btn-d {
-  background: rgba(17, 17, 17, 0.8);
-  color: #fff;
+  background: rgba(0,64,98,1.00);
+  color: #FFFFFF;
 }
 
 .btn.btn-d:hover,
 .btn.btn-d:focus {
-  background: #111111;
+  background: #002a40;
 }
 
 .btn.btn-b {
-  background: #111111;
+  background: #002a40;
   color: #fff;
 }
 
@@ -734,23 +734,23 @@ a,
 .btn-border-d {
   background: transparent;
   border: 1px solid #111111;
-  color: #111;
+  color: #002a40;
 }
 
 .btn.btn-border-d:hover,
 .btn.btn-border-d:focus {
   background: #111111;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .btn.btn-font-w {
   background: rgba(255, 255, 255, 0.8);
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .btn.btn-font-w:hover {
-  background: #fff;
-  color: #111;
+  background: #FFFFFF;
+  color: #FFFFFF;
 }
 
 /* Buttons size */
@@ -800,17 +800,17 @@ a,
 --------------------------------------------------------------*/
 /* Selection */
 ::-moz-selection {
-  background: #000;
+  background: #002a40;
   color: #fff;
 }
 
 ::-webkit-selection {
-  background: #000;
+  background: #002a40;
   color: #fff;
 }
 
 ::selection {
-  background: #000;
+  background: #002a40;
   color: #fff;
 }
 
@@ -965,7 +965,7 @@ blockquote {
 
 /* Landing Page */
 .landing-reason .module-title {
-  color: #e6af4b;
+  color: #002a40;
 }
 
 .landing-reason .module-title + .module-subtitle {
@@ -979,7 +979,7 @@ blockquote {
 }
 
 .free-trial .color-golden {
-  color: #e6af4b;
+  color: #002a40;
 }
 
 /*  Special Portfolio Page  */
@@ -1181,7 +1181,7 @@ General Styles - Owlcarousel
 --------------------------------------------------------------*/
 .page-loader {
   position: fixed;
-  background: #000;
+  background: #002a40;
   bottom: 0;
   right: 0;
   left: 0;
@@ -1243,7 +1243,7 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.9);
+  background-color: #002a40;
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -1259,7 +1259,7 @@ General Styles - Owlcarousel
 }
 
 .navbar-custom .dropdown-menu {
-  background: rgba(26, 26, 26, 0.9);
+  background: #002a40;
   border-radius: 0;
   border: 0;
   padding: 0;
@@ -1490,7 +1490,7 @@ General Styles - Owlcarousel
 /* Landing Page Header */
 .landing-header:before {
   position: absolute;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(119, 47, 109, 0.52) 95%, rgba(115, 35, 105, 0.58) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #004062 95%, #002a40 100%);
   content: " ";
   height: 100%;
   width: 100%;
@@ -2160,7 +2160,7 @@ Google map
 .post-title {
   line-height: 1.4;
   font-size: 22px;
-  color: #111;
+  color: #002a40;
   margin: 0;
 }
 
@@ -2535,7 +2535,7 @@ Google map
 
 /* Shop item hover */
 .shop-item:hover .shop-item-image:after {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(0,42,64,0.64);
 }
 
 .shop-item:hover .shop-item-detail {
@@ -2928,11 +2928,4 @@ Google map
   .works-grid-5 .work-item {
     width: 100%;
   }
-}
-.wrapper {
-
-  margin-right: auto;
-
-  margin-left:  auto;
-
 }

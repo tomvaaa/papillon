@@ -210,6 +210,10 @@ a,
   border-top: 1px solid #202020;
   margin: 0;
 }
+.divider-t {
+  border-top: 2px solid #000000;
+  margin: 0;
+}
 
 /* Half-image */
 .side-image {
@@ -2924,4 +2928,11 @@ Google map
   .works-grid-5 .work-item {
     width: 100%;
   }
+}
+.wrapper {
+
+  margin-right: auto;
+
+  margin-left:  auto;
+
 }
